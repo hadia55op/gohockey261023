@@ -23,7 +23,7 @@ func main() {
 	// 	fmt.Println(" hello world") i
 	// Create a Gin router with default middleware (logger and recovery)
 	r := gin.Default()
-	r.GET("/Hej .html", hejhtmlhandlar)
+	r.GET("/Hej every one .html", hejhtmlhandlar)
 	if err := r.Run(":8081"); err != nil {
 		fmt.Printf("failed to run server: %v", err)
 	}
